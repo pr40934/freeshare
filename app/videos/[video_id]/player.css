@@ -1,0 +1,29 @@
+:root {
+  --plyr-color-main: #26222243;
+  --plyr-video-control-background-hover: #1a1a1a;
+  --plyr-video-control-color: #ffffff;
+  --plyr-video-control-color-hover: #ffffff;
+  --plyr-range-fill-background: #ffffff;
+  --plyr-range-thumb-background: #ffffff;
+  --plyr-tooltip-background: #ffffff;
+  --plyr-tooltip-color: #000000;
+  --plyr-menu-background: #111;
+  --plyr-menu-color: #fff;
+}
+
+.plyr {
+  height: 70vh !important;
+  width: max-content !important;
+  border-radius: 10px !important;
+}
+
+
+.plyr__controls button {
+  background: var(--plyr-color-main) !important;
+  opacity: 1 !important;
+}
+.plyr__controls button:hover {
+  background: var(--plyr-color-main) !important;
+}
+
+
