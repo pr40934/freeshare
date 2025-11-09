@@ -1,4 +1,5 @@
-export const videoDomain = 'https://d1f96o9nypo8e0.cloudfront.net/'
+// export const videoDomain = 'https://cdn.share.net/'
+export const videoDomain = 'https://cdn.greenheavens.life/'
 
 const DOMAIN = 'http://localhost:8000' // Replace with your actual backend domain
 
