@@ -1,2 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = ".next"  # important for dynamic Next.js deploy
+  functions = "netlify/functions"
+
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
