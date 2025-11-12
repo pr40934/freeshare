@@ -1,10 +1,14 @@
 export const videoDomain = 'https://cdn.greenheavens.life/'
 
-const DOMAIN = 'http://34.93.213.137/:8000' // Replace with your actual backend domain
+const DOMAIN = 'http://34.93.213.137:8000' // Replace with your actual backend domain
 
 export async function getVideoDetails(key: string): Promise<string | null> {
+
+  // console.log(':: ', `${DOMAIN}/api/video-details/?key=${encodeURIComponent(key)}`)
+
   try {
     const res = await fetch(`${DOMAIN}/api/video-details/?key=${encodeURIComponent(key)}`)
+    console.log('res :: ',res)
     if (!res.ok) throw new Error('Failed to fetch video details')
 
     const data = await res.json()
