@@ -1,7 +1,6 @@
-// export const videoDomain = 'https://cdn.share.net/'
 export const videoDomain = 'https://cdn.greenheavens.life/'
 
-const DOMAIN = 'http://localhost:8000' // Replace with your actual backend domain
+const [DOMAIN] = 'http://34.93.213.137/:8000' // Replace with your actual backend domain
 
 export async function getVideoDetails(key: string): Promise<string | null> {
   try {
