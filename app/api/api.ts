@@ -1,4 +1,5 @@
-export const videoDomain = 'https://cdn.greenheavens.life/'
+// export const videoDomain = 'https://cdn.greenheavens.life/'
+export const videoDomain = 'https://cdn.freeshare.world/'
 
 // const DOMAIN = 'http://34.93.213.137:8000' // Replace with your actual backend domain
 const DOMAIN = 'https://api.freeshare.world' // Replace with your actual backend domain
